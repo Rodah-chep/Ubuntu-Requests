@@ -5,15 +5,16 @@ A mindful and secure image downloading tool built with Ubuntu principles of comm
 
 
 📋 Table of Contents
-• [Overview](#overview)
-• [Features](#features)
-• [Installation](#installation)
-• [Usage](#usage)
-• [Security Features](#security-features)
-• [File Structure](#file-structure)
-• [Error Handling](#error-handling)
-• [Contributing](#contributing)
-• [License](#license)
+
+[Overview](#overview)
+[Features](#features)
+[Installation](#installation)
+[Usage](#usage)
+[Security Features](#security-features)
+[File Structure](#file-structure)
+[Error Handling](#error-handling)
+[Contributing](#contributing)
+[License](#license)
 
 
 🌟 Overview
@@ -24,25 +25,25 @@ Ubuntu Image Fetcher is a Python-based tool designed to download images from the
 ✨ Features
 
 Core Functionality
-• **Single Image Download**: Download individual images with detailed feedback
-• **Batch Download**: Process multiple URLs simultaneously with progress tracking
-• **Duplicate Detection**: Prevents downloading identical images using MD5 hashing
-• **Smart Filename Generation**: Automatically generates safe filenames from URLs
+**Single Image Download**: Download individual images with detailed feedback
+**Batch Download**: Process multiple URLs simultaneously with progress tracking
+**Duplicate Detection**: Prevents downloading identical images using MD5 hashing
+**Smart Filename Generation**: Automatically generates safe filenames from URLs
 
 
 Security & Safety
-• **URL Validation**: Ensures URLs are properly formatted and secure
-• **Content-Type Verification**: Confirms files are actually images
-• **HTTP Header Analysis**: Checks security-relevant headers
-• **File Size Warnings**: Alerts for unusually large files
-• **Safe File Handling**: Sanitizes filenames and prevents path traversal
+**URL Validation**: Ensures URLs are properly formatted and secure
+**Content-Type Verification**: Confirms files are actually images
+**HTTP Header Analysis**: Checks security-relevant headers
+**File Size Warnings**: Alerts for unusually large files
+**Safe File Handling**: Sanitizes filenames and prevents path traversal
 
 
 User Experience
-• **Interactive Menu System**: Easy-to-use command-line interface
-• **Progress Tracking**: Real-time feedback during downloads
-• **Comprehensive Error Messages**: Clear explanations when things go wrong
-• **Respectful Rate Limiting**: Built-in delays to be considerate to servers
+**Interactive Menu System**: Easy-to-use command-line interface
+**Progress Tracking**: Real-time feedback during downloads
+**Comprehensive Error Messages**: Clear explanations when things go wrong
+**Respectful Rate Limiting**: Built-in delays to be considerate to servers
 
 
 🚀 Installation
@@ -151,6 +152,7 @@ Network Security
 📁 File Structure
 
 project-directory/
+
 ├── ubuntu_image_fetcher.py    # Main application
 ├── README.md                  # This file
 └── Fetched_Images/           # Created automatically
@@ -160,9 +162,9 @@ project-directory/
 
 
 Generated Files
-• **Fetched_Images/**: Directory where all downloaded images are stored
-• Images are saved with original or generated filenames
-• Duplicate filenames get automatic numbering (e.g., `image_1.jpg`, `image_2.jpg`)
+**Fetched_Images/**: Directory where all downloaded images are stored
+Images are saved with original or generated filenames
+Duplicate filenames get automatic numbering (e.g., `image_1.jpg`, `image_2.jpg`)
 
 
 🛠 Error Handling
@@ -171,21 +173,21 @@ The application handles various error scenarios gracefully:
 
 
 Network Errors
-• **Connection Timeout**: Server takes too long to respond
-• **Connection Error**: Unable to reach server
-• **HTTP Errors**: 404, 403, 500, etc.
+**Connection Timeout**: Server takes too long to respond
+**Connection Error**: Unable to reach server
+**HTTP Errors**: 404, 403, 500, etc.
 
 
 File System Errors
-• **Permission Denied**: Cannot write to directory
-• **Disk Space**: Insufficient storage space
-• **Path Issues**: Invalid file paths
+**Permission Denied**: Cannot write to directory
+**Disk Space**: Insufficient storage space
+**Path Issues**: Invalid file paths
 
 
 Content Errors
-• **Invalid Content**: Non-image files
-• **Corrupted Data**: Incomplete downloads
-• **Large Files**: Warnings for files over 50MB
+**Invalid Content**: Non-image files
+**Corrupted Data**: Incomplete downloads
+**Large Files**: Warnings for files over 50MB
 
 
 Example Error Messages
@@ -231,11 +233,11 @@ How to Contribute
 
 
 Contribution Guidelines
-• Follow Python PEP 8 style guidelines
-• Add appropriate error handling
-• Include security considerations
-• Write clear documentation
-• Test with edge cases
+Follow Python PEP 8 style guidelines
+Add appropriate error handling
+Include security considerations
+Write clear documentation
+Test with edge cases
 
 
 Areas for Improvement
