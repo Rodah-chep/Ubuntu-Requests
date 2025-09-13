@@ -6,9 +6,9 @@ A mindful and secure image downloading tool built with Ubuntu principles of comm
 
 📋 Table of Contents
 
-[Overview](#overview)
-[Features](#features)
-[Installation](#installation)
+[Overview](#overview)/
+[Features](#features)/
+[Installation](#installation)/
 [Usage](#usage)
 [Security Features](#security-features)
 [File Structure](#file-structure)
